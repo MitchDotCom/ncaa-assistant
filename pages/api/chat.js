@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-  const assistant_id = "asst_yFQpyxtJ1vYBMvjRvXHKV0cs"; // NHL Assistant ID
+  const assistant_id = "asst_yFQpyxtJ1vYBMvjRvXHKV0cs"; // NCAA Assistant ID
 
   const messages = req.body.messages;
   if (!messages || messages.length === 0) {
