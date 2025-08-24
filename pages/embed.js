@@ -63,7 +63,7 @@ export default function EmbedChat() {
   return (
     <>
       <Head>
-        <title>NHL CBA Assistant</title>
+        <title>NCAA Recruiting & Compliance</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap"
@@ -130,7 +130,7 @@ export default function EmbedChat() {
               flexShrink: 0,
             }}
           >
-            NHL CBA Assistant
+           NCAA Recruiting & Compliance Assistant
             <div
               style={{
                 fontWeight: 400,
@@ -155,7 +155,7 @@ export default function EmbedChat() {
               flexShrink: 0,
             }}
           >
-            <b>Ask anything about the NHL CBA.</b>
+            <b>Ask anything about NCAA Recruiting & Compliance.</b>
             <div style={{ marginTop: 10 }}>
               <a
                 href="https://mitchleblanc.xyz"
@@ -217,7 +217,7 @@ export default function EmbedChat() {
             ))}
             {isTyping && (
               <div style={{ fontSize: 12, color: "#6b7280", fontStyle: "italic" }}>
-                Assistant is reviewing the CBA… One moment.
+                Assistant is reviewing NCAA rules… One moment.
               </div>
             )}
             {error && (
@@ -253,7 +253,7 @@ export default function EmbedChat() {
               }}
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask me about the NHL CBA…"
+              placeholder="Ask me about NCAA Recruiting & Compliance…"
             />
             <button
               type="submit"
@@ -289,7 +289,7 @@ export default function EmbedChat() {
           >
             &copy; {new Date().getFullYear()} Mitch Leblanc.<br />
             <span style={{ color: "#aaa" }}>
-              For informational purposes only. Always consult the official <b>NHL CBA</b> for legal certainty.
+              For informational purposes only. Always consult official <b>NCAA documents</b> for legal certainty.
             </span>
           </div>
         </div>
